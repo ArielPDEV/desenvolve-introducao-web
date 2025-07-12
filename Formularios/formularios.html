@@ -5,6 +5,9 @@
         <h1>Pesquisa de satisfação</h1>
     </head>
     <body>
+        <form method="post" action="resposta.html">
+        <section>
+            <h2>Dados pessoais</h2>
         <p>
             <label for="nome">Nome: </label>
             <input type="text" placeholder="Nome" id="nome">
@@ -17,6 +20,9 @@
             <label for="telefone">Telefone: </label>
             <input type="number" placeholder="Telefone para contato" id="telefone">
         </p>
+        </section>
+        <section>
+            <h2>Dados da pesquisa</h2>
             Serviço prestado
         <p>
             <input type="radio" name="pergunta1" id="bom1">
@@ -45,6 +51,8 @@
                 <option>Com certeza não</option>
             </select>
         </p>
+        </section>
+        </form>
         <p>
             <input type="checkbox" id="termo">
             <label for="termo">Concordo com o compartilhamento dos dados acima com terceiros</label>
