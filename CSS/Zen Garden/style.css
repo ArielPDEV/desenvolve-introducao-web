@@ -1,9 +1,9 @@
-.destaque {
-    color:yellow
-}
-.background {
-    color:blueviolet
-}
-.fonte {
-    color:purple
+/*
+destaque color:rgba(255,255,0,0.8);
+background color:rgba(137, 43, 226, 0.6);
+fonte color:rgb(50, 0, 50);
+*/
+html{
+    background:rgba(137, 43, 226, 0.3);
+    color:rgb(50,0,50);
 }
