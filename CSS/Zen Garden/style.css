@@ -6,4 +6,31 @@ fonte color:rgb(50, 0, 50);
 html{
     background:rgba(137, 43, 226, 0.3);
     color:rgb(50,0,50);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+p{
+    text-indent: 1em;
+}
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+div#zen-summary{
+    text-align: center;
+    line-height: 5px;
+}
+div .mainmain supporting{
+    line-height: 1,5;
+}
+abbr{
+    font-family: small-caps;
 }
