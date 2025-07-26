@@ -9,6 +9,43 @@ html{
     font-family: sans-serif;
     font-size: 20px;
 }
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+.main footer{
+    margin: 4%;
+}
+.main footer li{
+    border: solid 2px color(50,0,50);
+    padding: 0.5em;
+    display: inline-block;
+}
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin-left: 10%;
+}
+#zen-intro{
+    height: 550px;
+}
+#design-archives{
+    display: none;
+}
+#zen-intro header h1,#zen-intro header h2{
+    display: inline-block;
+}
+#zen-intro header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#zen-intro header{
+    background-color:rgb(50, 0, 50) ;
+    color:rgba(137, 43, 226, 0.6) ;
+}
 p{
     text-indent: 1em;
 }
@@ -28,7 +65,7 @@ div#zen-summary{
     text-align: center;
     line-height: 5px;
 }
-div .mainmain supporting{
+div .main-supporting{
     line-height: 1,5;
 }
 abbr{
